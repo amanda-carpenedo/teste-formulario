@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1 class="titulo">Formulário</h1>
+
+    <h3 class="subtitulo">Formulário de login</h3>
+    <form class="caixa-formulario" method="get" action="index.html">
+        <input type="text" name="nome" id="nome" placeholder="Nome" class="input">
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" class="input"><br>
+        <input type="text" name="email" id="email" placeholder="Email" class="input">
+        <input type="password" name="senha" id="senha" placeholder="Nova senha" class="input">
+        <br><br><br>
+
+        <label class="data-nascimento">Data de nascimento</label><br>
+        <select name="dia" id="dia" class="input-data">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <select name="mes" id="mes" class="input-data">
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+        </select>
+
+        <select name="ano" id="ano" class="input-data">
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select> <br><br>
+        
+        <label class="informacao-genero">Gênero</label><br>
+        <div class="barra-de-opcoes">
+            <label for="masculino"></label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <span class="opcoes">Masculino</span>
+
+            <label for="feminino"></label>
+            <input type="radio" name="genero" id="feminino" value="feminino">
+            <span class="opcoes">Feminino</span>
+
+            <label for="outros"></label>
+            <input type="radio" name="genero" id="outros" value="outros">
+            <span class="opcoes">Outros</span> <br><br>
+        </div>
+
+        <input type="file"><br><br>
+        <input type="submit" value="Enviar" class="botao-enviar">
+    </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(226, 219, 210);
+}
+
+.titulo {
+    text-align: center;
+    color: brown;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    margin-top: 80px;
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 1px;
+
+}
+
+.subtitulo {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+
+.caixa-formulario {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.input {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff;
+    border: 1px solid #000000;
+    width: 170px;
+    height: 25px;
+    padding: 0 0 0 8px;
+}
+
+.data-nascimento {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.input-data {
+    margin-top: 10px;
+}
+
+.informacao-genero {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.opcoes {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    padding: 0 10px 0 0;
+
+}
+
+.barra-de-opcoes {
+    margin-top: 5px;
+}
+
+.botao-enviar {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 1px 1px 2px #333333;
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: #ffffff;
+    border: 1px solid #000000;
+    width: 90px;
+    height: 25px;
+
+}
